@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="padlock.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body class="text-center d-flex align-items-center justify-content-center">
+    <div class="h1 m-3">Password Generator - SR Fidayee</div>
+    <div class="card text-center">
+      <div class="card-header d-flex justify-content-center">
+        <ul class="nav card-header-tabs">
+          <li class="nav-item">
+            <!-- <a class="nav-link active" href="#">Active</a> -->
+            <div class="btn btn-success m-1 mb-2" id="strong">Strong</div>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Link</a> -->
+            <div class="btn btn-warning m-1 mb-2" id="medium">Medium</div>
+          </li>
+          <li class="nav-item">
+            <div class="btn btn-danger m-1 mb-2" id="weak">Weak</div>
+            <!-- <a class="nav-link disabled">Disabled</a> -->
+          </li>
+        </ul>
+      </div>
+      <div class="card-body" id="content">
+        <h5 class="card-title">Welcome to Password Generator</h5>
+        <p class="card-text">
+          With supporting copy feature made by SR Fidayee.
+        </p>
+        <a href="#" class="btn btn-primary" id="generate-now">Generate now!</a>
+        <!-- <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+        <div class="btn btn-success">
+            Generate Password
+        </div>
+        <div class="btn btn-secondary m-3">
+            Copy Password <i class="fa-solid fa-clipboard"></i>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
