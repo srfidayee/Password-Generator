@@ -1,3 +1,5 @@
-# Password-Generator
+# My Project
 
-[Website Link](https://www.google.com](https://srfidayee.github.io/Password-Generator/)
+This is a simple Password Generator.
+
+[Site Link](https://srfidayee.github.io/Password-Generator/)
